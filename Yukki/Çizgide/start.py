@@ -74,7 +74,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Kanal", url=f"{SUPPORT_CHANNEL}"
+                    text="🎧 Music Kanal", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -93,7 +93,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Kanal", url=f"{SUPPORT_CHANNEL}"
+                    text="🎧 Music Kanal", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
                     text="📨Söhbət Qrupu", url=f"{SUPPORT_GROUP}"
@@ -154,7 +154,7 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Kanal", url=f"{SUPPORT_CHANNEL}"
+                    text="🎧 Music Kanal", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -174,7 +174,7 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Kanal", url=f"{SUPPORT_CHANNEL}"
+                    text="🎧 Music Kanal", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
                     text="📨Söhbət Qrupu", url=f"{SUPPORT_GROUP}"
