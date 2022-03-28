@@ -31,7 +31,7 @@ def playlist_markup(user_name, user_id, videoid):
                 callback_data=f"show_genre {user_id}|Personal|{videoid}",
             ),
         ],
-        [InlineKeyboardButton(text="🗑 Close Menu", callback_data="close")],
+        [InlineKeyboardButton(text="🗑 Geri Qayıt", callback_data="close")],
     ]
     return buttons
 
