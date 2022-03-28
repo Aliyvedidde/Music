@@ -42,11 +42,11 @@ def url_markup2(videoid, duration, user_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🎵 Play Music",
+                text="🎵 Başlat Music",
                 callback_data=f"MusicStream {videoid}|{duration}|{user_id}",
             ),
             InlineKeyboardButton(
-                text="🎥 Play Video",
+                text="🎥 Başlat Video",
                 callback_data=f"Choose {videoid}|{duration}|{user_id}",
             ),
         ],
@@ -173,7 +173,7 @@ def secondary_markup(videoid, user_id):
         ],
         [
             InlineKeyboardButton(
-                text="🔗 More Menu", callback_data=f"other {videoid}|{user_id}"
+                text="🔗 Daha çox Menyu", callback_data=f"other {videoid}|{user_id}"
             ),
             InlineKeyboardButton(text="🗑 Menyunu bağlayın", callback_data=f"close"),
         ],
