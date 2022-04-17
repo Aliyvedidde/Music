@@ -8,19 +8,19 @@ from Yukki import BOT_USERNAME
 def setting_markup2():
     buttons = [
         [
-            InlineKeyboardButton(text="🔈 Səs keyfiyyəti", callback_data="AQ"),
-            InlineKeyboardButton(text="🎚 Audio Səs", callback_data="AV"),
+            InlineKeyboardButton(text="🔈 sᴇs ᴋᴇʏғɪʏᴇᴛɪ", callback_data="AQ"),
+            InlineKeyboardButton(text="🎚 ᴀᴜᴅɪᴏ sᴇs", callback_data="AV"),
         ],
         [
             InlineKeyboardButton(
-                text="👥 Səlahiyyətli İstifadəçilər", callback_data="AU"
+                text="👥 səʟᴀʜɪʏʏəᴛʟɪ İsᴛɪꜰᴀᴅəçɪʟəʀ", callback_data="AU"
             ),
             InlineKeyboardButton(
-                text="💻 İdarə paneli", callback_data="Dashboard"
+                text="💻 İᴅᴀʀə ᴘᴀɴᴇʟɪ", callback_data="Dashboard"
             ),
         ],
         [
-            InlineKeyboardButton(text="✖️ ​​Bağlayın", callback_data="close"),
+            InlineKeyboardButton(text="✖️ ​​ʙᴀɢʟᴀʏɪɴ", callback_data="close"),
         ],
     ]
     return f"🔧  **{MUSIC_BOT_NAME} Parametrlər**", buttons
@@ -55,7 +55,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Söhbət Qrupu", url=f"{SUPPORT_GROUP}"
+                    text="📨sᴏʜʙᴇᴛ ɢʀᴏᴜᴘ", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -74,7 +74,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="🎧 Music Kanal", url=f"{SUPPORT_CHANNEL}"
+                    text="🎧 ᴍᴜsɪᴄ Kᴋᴀɴᴀʟ", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -93,10 +93,10 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text="🎧 Music Kanal", url=f"{SUPPORT_CHANNEL}"
+                    text="🎧 ᴍᴜsɪᴄ ᴋᴀɴᴀʟ", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Söhbət Qrupu", url=f"{SUPPORT_GROUP}"
+                    text="**📨sᴏʜʙᴇᴛ ɢʀᴏᴜᴘ**", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -113,7 +113,7 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Məni öz qrupuna əlavə et",
+                    "➕ ᴍᴇɴᴏ ᴏᴢ ɢᴜʀᴜᴘɴᴀ ᴇʟᴀᴠᴇ ᴇᴛ",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
@@ -128,13 +128,13 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Məni öz qrupuna əlavə et",
+                    "➕ ᴍᴇɴɪ ᴏᴢ ɢᴜʀᴜᴘᴜɴᴀ ᴇʟᴀᴠᴇ ᴇᴛ",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Söhbət Qrupu", url=f"{SUPPORT_GROUP}"
+                    text="📨sᴏʜʙᴇᴛ ɢʀᴏᴜᴘ", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -148,13 +148,13 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Məni öz qrupuna əlavə et",
+                    "➕ ᴍᴇɴı ᴏᴢ ɢʀᴜᴘᴜɴᴀ ᴇʟᴀᴠᴇ ᴇᴛ",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="🎧 Music Kanal", url=f"{SUPPORT_CHANNEL}"
+                    text="🎧 ᴍᴜsıᴄ ᴋᴀɴᴀʟ", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -168,16 +168,16 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Məni öz qrupuna əlavə et",
+                    "➕ ᴍᴇɴɪ ᴏᴢ ɢᴜʀᴜᴘᴜɴᴀ ᴇʟᴀᴠᴇ ᴇᴛ",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="🎧 Music Kanal", url=f"{SUPPORT_CHANNEL}"
+                    text="🎧 ᴍᴜsɪᴄ ᴋᴀɴᴀʟ", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Söhbət Qrupu", url=f"{SUPPORT_GROUP}"
+                    text="📨sᴏʜʙᴇᴛ ɢʀᴏᴜᴘ", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
